@@ -48,7 +48,7 @@ cd snake-game-v2.00
 
 ## Author
 
-**Avi** [@definitelyavi](https://github.com/definitelyavi)
+**Jashandeep Singh** [@definitelyavi](https://github.com/definitelyavi)
 
 ---
 
