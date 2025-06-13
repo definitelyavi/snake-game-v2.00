@@ -1,68 +1,55 @@
-# 🐍 Snake Game v2.00
+# Snake Game v2.00
 
-A polished, retro-inspired Snake Game built using HTML, CSS, JavaScript, and the Canvas API. This version focuses on refined visuals, smoother animations, immersive audio, and a minimal, responsive UI — inspired by the classic Nokia Snake game.
+A modern, retro-inspired Snake game built with vanilla JavaScript and Canvas API. Features smooth animations, immersive audio, and a polished user interface inspired by the classic Nokia Snake experience.
 
----
+**[Play Live Demo](https://definitelyavi.github.io/snake-game-v2.00)**
 
-## 🎮 Features
+## Features
 
-- ✅ Difficulty selection: Easy / Medium / Hard
-- ✅ Smooth keyframe animations for snake head, body, and tail
-- ✅ Animated sprites and retro pixel visuals
-- ✅ Responsive canvas with integrated start menu
-- ✅ Game Over screen with death reason (wall/self-collision)
-- ✅ Mute / unmute toggle and volume slider
-- ✅ Background music and retro sound effects
-- ✅ High score tracking via LocalStorage
-- ✅ Minimal UI with canvas-focused layout
+- **Multiple Difficulty Levels**: Easy, Medium, and Hard modes with varying speeds
+- **Smooth Animations**: Keyframe-based animations for snake movement and visual effects
+- **Retro Audio System**: Background music and sound effects with volume controls
+- **Responsive Design**: Canvas-based rendering with adaptive UI
+- **Score Persistence**: High score tracking using localStorage
+- **Game State Management**: Comprehensive game over conditions and restart functionality
 
----
+## Tech Stack
 
-## 🛠️ Technologies Used
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **Graphics**: Canvas API for 2D rendering
+- **Audio**: Howler.js for cross-browser audio management
+- **Storage**: localStorage for persistent data
+- **Styling**: Custom CSS with VT323 retro font
 
-- **HTML5** & **CSS3** (VT323 retro font)
-- **JavaScript** (Vanilla, modular code)
-- **Canvas API** for rendering
-- **Howler.js** for audio management
-- **LocalStorage** for saving scores
+## Architecture
 
----
+```
+├── assets/
+│   ├── images/          # Sprite assets and UI elements
+│   └── sounds/          # Audio files for game effects
+├── scripts/
+│   └── game.js          # Core game logic and rendering
+├── styles/
+│   └── main.css         # Retro styling and responsive design
+└── index.html           # Game structure and canvas setup
+```
 
-## 🚀 Live Demo
+## Game Mechanics
 
-👉 Play here: [https://definitelyavi.github.io/snake-game-v2.00](https://definitelyavi.github.io/snake-game-v2.00)
+The game implements classic Snake mechanics with modern enhancements including collision detection, score calculation, and progressive difficulty scaling. The rendering system uses efficient canvas operations for smooth 60fps gameplay.
 
----
+## Quick Start
 
-## 📁 File Structure (simplified)
+```bash
+git clone https://github.com/definitelyavi/snake-game-v2.00.git
+cd snake-game-v2.00
+# Open index.html in your browser or serve with a local server
+```
 
-📦 assets/
-┣━━ images/ → Snake sprites, apple, UI icons
-┣━━ sounds/ → move.mp3, eat.mp3, gameover.mp3, bg-music.mp3
+## Author
 
-📦 scripts/
-┣━━ game.js → Main game logic (rendering, input, state)
-
-📦 styles/
-┣━━ main.css → Retro styling, UI + canvas polish
-
-📄 index.html → Game layout and canvas setup
-
-
----
-
-## 💡 Future Plans
-
-- Power-ups and special food types
-- More death effects and visual polish
-- Snake skins / sprite themes
-- Dynamic scaling and accessibility improvements
-- Three.js-based 3D mode (experimental)
-- Local multiplayer or AI opponent mode
+**Avi** [@definitelyavi](https://github.com/definitelyavi)
 
 ---
 
-## 🙌 Author
-
-Built by [@definitelyavi](https://github.com/definitelyavi) — feedback and forks welcome!
-
+*Classic gameplay meets modern web development*
